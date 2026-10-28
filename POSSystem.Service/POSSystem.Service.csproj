@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POSSystem.Application\POSSystem.DTO.csproj" />
+    <ProjectReference Include="..\POSSystem.Domain\POSSystem.Domain.csproj" />
+    <ProjectReference Include="..\POSSystem.Infrastructure\POSSystem.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="11.0.0-rc.1.26425.128" />
+  </ItemGroup>
+
+</Project>
+  
